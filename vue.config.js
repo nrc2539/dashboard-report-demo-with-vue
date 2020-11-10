@@ -1,5 +1,5 @@
 module.exports = {
-	publicPath: "/dashboard-demo-vue-app",
+	publicPath: "/dashboard-demo-vue-app/",
   "transpileDependencies": [
     "vuetify"
   ]
