@@ -1,8 +1,12 @@
 <template>
   <div>
     <v-card height="100%" width="100%">
-      <p class="title text-center pt-3">Year Expenses</p>
-      <apexchart type="line" width="100%" height="290" :options="chartOptions" :series="series"></apexchart>
+			<v-row>
+				<v-col>
+					<p class="title text-center pt-1">Year Expenses</p>
+					<apexchart type="line" width="100%" height="290" :options="chartOptions" :series="series"></apexchart>
+				</v-col>
+			</v-row>
     </v-card>
   </div>
 </template>

@@ -3,16 +3,16 @@
     <v-container grid-list-xs>
 			<h1>Dashboard</h1>
         <v-row>
-            <v-col sm="12" md="12" lg="6">
-							<div class="mx-3">
-								<MonthExpenses /> 
-							</div>              
-            </v-col>
-            <v-col sm="12" md="12" lg="6"> 
-							<div class="mx-3">
-								<YearExpenses />  
-							</div>                                      
-            </v-col>
+					<v-col cols="12" md="12" lg="6">
+						<div class="mx-3">
+							<MonthExpenses /> 
+						</div>              
+					</v-col>
+					<v-col cols="12" md="12" lg="6"> 
+						<div class="mx-3">
+							<YearExpenses />  
+						</div>                                      
+					</v-col>
         </v-row>
     
         <v-row>
@@ -24,12 +24,12 @@
         </v-row>
 
         <v-row>
-            <v-col sm="12" md="12" lg="6">
+            <v-col cols="12" md="12" lg="6">
 							<div class="mx-3">
 									<QtyProduct />  
 							</div>                                         
             </v-col>
-            <v-col sm="12" md="12" lg="6">
+            <v-col cols="12" md="12" lg="6">
 							<div class="mx-3">
 									<ExpensesProduct />
 							</div>                                              

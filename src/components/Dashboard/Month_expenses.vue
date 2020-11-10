@@ -1,12 +1,12 @@
 <template>
   <div>
     <v-card height="100%" width="100%">
-      <v-row>
-        <v-col sm="12" md="12" lg="6">
+      <v-row class="expand-graph-card">
+        <v-col cols="12" md="6" lg="6">
           <p class="title text-center pt-1">Expense This Month</p>
           <apexchart type="donut" width="100%" height="329" :options="chartOptions1" :series="series"></apexchart>
         </v-col>
-        <v-col sm="12" md="12" lg="6">
+        <v-col cols="12" md="6" lg="6">
           <p class="title text-center pt-1">Credit Balance</p>
           <apexchart type="donut" width="100%" height="329" :options="chartOptions2" :series="series2"></apexchart>
         </v-col>
@@ -106,3 +106,12 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+	@media screen and (min-width: 1264px) {
+		.expand-graph-card {
+			height: 380px;
+		}
+	}
+
+</style>
