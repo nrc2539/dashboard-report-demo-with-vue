@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b70af01eb96555395817",
+    "revision": "e4037e7291ea9e9ce501",
     "url": "/dashboard-report-demo-with-vue/css/about.feed073f.css"
   },
   {
-    "revision": "858485ee8089c40a4282",
+    "revision": "d070e07bc0f3b669767e",
     "url": "/dashboard-report-demo-with-vue/css/app.603cdca3.css"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dashboard-report-demo-with-vue/css/chunk-vendors.93223636.css"
   },
   {
-    "revision": "dd43fd94a06d17f5251219004da16b83",
+    "revision": "e92dd44fda555ee4ac674a1f8e82c4f1",
     "url": "/dashboard-report-demo-with-vue/index.html"
   },
   {
-    "revision": "b70af01eb96555395817",
-    "url": "/dashboard-report-demo-with-vue/js/about.63c246ac.js"
+    "revision": "e4037e7291ea9e9ce501",
+    "url": "/dashboard-report-demo-with-vue/js/about.50fbb500.js"
   },
   {
-    "revision": "858485ee8089c40a4282",
-    "url": "/dashboard-report-demo-with-vue/js/app.46e6959d.js"
+    "revision": "d070e07bc0f3b669767e",
+    "url": "/dashboard-report-demo-with-vue/js/app.d6f50800.js"
   },
   {
     "revision": "f02aaa24359e2534baf0",

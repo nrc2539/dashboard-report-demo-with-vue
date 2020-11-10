@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dashboard-report-demo-with-vue/precache-manifest.86f8675db25f00861b1d9f638c1489d7.js"
+  "/dashboard-report-demo-with-vue/precache-manifest.ac86701c6ea1991d3540cb658cfd7c05.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "dashboard-report-demo"});
