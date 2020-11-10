@@ -25,7 +25,7 @@ export default {
               fontSize: "18px"
             }
           }
-        },
+				},
         markers: {
           size: 6
 				},
@@ -45,7 +45,12 @@ export default {
               fontSize: "18px"
             }
           }
-        },
+				},
+				xaxis: {
+					labels:{
+						rotate: -45
+					}
+				},
         markers: {
           size: 6
 				},

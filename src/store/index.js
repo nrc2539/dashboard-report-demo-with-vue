@@ -11,7 +11,7 @@ export default new Vuex.Store({
   },
   mutations: {
 		changeGraph(state, new_graph){
-			console.log('store new graph ---->', new_graph)
+			// console.log('store new graph ---->', new_graph)
 			state.selected_graph = new_graph
 		},
 		changePeriod(state, new_period){
@@ -39,24 +39,24 @@ export default new Vuex.Store({
 						data_arr.push({x: current_date.toLocaleDateString('TH-th'), y: Math.floor((Math.random() * 300) + 1)})
 					}
 				}
-				state.report_graph_data = data_arr
+				state.report_graph_data =  data_arr
 			}else if(state.selected_graph == 'department_expenses'){
 				for (let index = 0; index < 10; index++) {
 					data_arr.push({x: `Department${index+1}`, y: Math.floor((Math.random() * 500) + 1)})
 				}
-				state.report_graph_data = data_arr
+				state.report_graph_data =  data_arr.sort((a, b) => b.y - a.y)
 			}else if(state.selected_graph == 'quantity'){
 				let product_list = ['Paper', 'Pen', 'Hard Disk', 'CD', 'Ink', 'Chair', 'Table', 'Snack', 'Box', 'Bottle']
 				for (let index = 0; index < product_list.length; index++) {
 					data_arr.push({x: product_list[index], y: Math.floor((Math.random() * 250) + 1)})
 				}
-				state.report_graph_data = data_arr
+				state.report_graph_data =  data_arr.sort((a, b) => b.y - a.y)
 			}else if(state.selected_graph == 'product_expenses'){
 				let product_list = ['Coffee', 'Milk', 'Keyboard', 'Mouse', 'Sugar', 'Cup', 'Bettery', 'Plastic', 'Pencil', 'Scissors']
 				for (let index = 0; index < product_list.length; index++) {
 					data_arr.push({x: product_list[index], y: Math.floor((Math.random() * 10) + 1)})
 				}
-				state.report_graph_data = data_arr
+				state.report_graph_data =  data_arr.sort((a, b) => b.y - a.y)
 			}
 		}
   },
