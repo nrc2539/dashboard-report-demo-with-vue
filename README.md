@@ -1,5 +1,5 @@
 # Dashboard Report Demo with Vue
-See live demo [HERE](https://nrc2539.github.io/dashboard-report-demo-with-vue/)
+See [Live Demo](https://nrc2539.github.io/dashboard-report-demo-with-vue/)
 
 ## Project setup
 ```
