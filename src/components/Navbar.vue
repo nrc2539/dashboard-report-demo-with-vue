@@ -6,7 +6,7 @@
 			dark
 		>
 			<v-app-bar-nav-icon @click="drawer=!drawer"></v-app-bar-nav-icon>
-			<v-toolbar-title>Dashboard&Report Demo</v-toolbar-title>
+			<v-toolbar-title class="hover-title" @click="pushPage('/', 'Dashboard')">Dashboard&Report Demo</v-toolbar-title>
 		</v-app-bar>
 		<v-navigation-drawer
 			v-model="drawer"
@@ -52,3 +52,9 @@ export default {
 	}
 }
 </script>
+
+<style scoped>
+	.hover-title {
+		cursor: pointer;
+	}
+</style>
