@@ -1,7 +1,5 @@
 # Dashboard Report Demo with Vue
-
-## Live demo
-This demo project is published [HERE](https://nrc2539.github.io/dashboard-report-demo-with-vue/)
+See live demo [HERE](https://nrc2539.github.io/dashboard-report-demo-with-vue/)
 
 ## Project setup
 ```
